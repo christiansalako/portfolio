@@ -1,0 +1,28 @@
+.list-inline.tabs-underlined {
+  margin-top: 30px;
+}
+
+.tabs-underlined {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-family: $body-font;
+  color: white;
+
+}
+
+.tabs-underlined .tab-underlined {
+  padding: 8px;
+  margin: 8px 16px;
+  // opacity: .4;
+  margin-top: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+  color: white;
+}
+
+.tabs-underlined .tab-underlined.active {
+  opacity: 1;
+  border-bottom: 3px solid #555555;
+}

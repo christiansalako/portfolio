@@ -1,0 +1,44 @@
+body {
+  background-color:$home_background_colour;
+}
+
+.center {
+  height: 700px;
+  position: relative;
+
+  h1 {
+    font-family:$headers-font;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: $main_header;
+    width: 900px;
+
+    }
+
+    p {
+
+      font-family:$body-font;
+      margin: 0;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 40%;
+      left: 40%;
+      font-size: 30px;
+      color: white;
+      width: 700px;
+      // border: 1px solid beige;
+      background: none;
+
+    }
+}
+
+.mail-envelope{
+  position: absolute;
+  top: 40px;
+  right: 10%;
+}
+
