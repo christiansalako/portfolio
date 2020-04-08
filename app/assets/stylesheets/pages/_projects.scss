@@ -23,12 +23,12 @@ h1 {
 
 
 
-email logo
+// email logo
 
 
 
 
-icon grow on back button
+// icon grow on back button
 
 .hvr-grow {
   display: inline-block;
@@ -50,13 +50,7 @@ icon grow on back button
 
 
 
-// *,
-// *:before,
-// *:after {
-//     -webkit-box-sizing: border-box;
-//     -moz-box-sizing: border-box;
-//     box-sizing: border-box;
-// }
+
 
 body {
     text-align: center;
@@ -66,28 +60,13 @@ body {
 p {
     font-size: 1.6em;
     font-family: 'Lato', sans-serif;
-    background-color: #fff;
+    // background-color: #fff;
     padding: 1em;
     color: #002240;
     margin-top: 0;
 }
 
 
-
-// div {
-//   background-size: cover;
-//   background-position: center;
-//   height: 180px;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   color: white;
-//   font-size: 24px;
-//   font-weight: bold;
-//   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-//   border-radius: 10px;
-
-// }
 
 #second, .subscribe:hover>div {
   display: none;
@@ -99,12 +78,7 @@ p {
 
 }
 
-// #first {
-//   width: 200px;
-//   height: 100px;
-//   background-color: white;
 
-// }
 
 #first > p {
   position: relative;
@@ -117,6 +91,7 @@ p {
   height: 179px;
   background-color: pink;
   border-radius: 5px;
+  border: 1px solid black;
 
   a {
     position: relative;
