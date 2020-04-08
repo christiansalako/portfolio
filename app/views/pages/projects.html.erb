@@ -2,43 +2,67 @@
 
 <div class="container">
 <h1>Recent Projects</h1>
+
+
   <div class="cards">
-    <div class="button" data-hover="Phone app showing if an item can be recycled" data-test="I'm acive">
-      <div class="card-category test">
-        <%# image_tag ("recyclable-logo"), class: "card-category"%>
+    <div class="subscribe">
+     <div class="card-category" style="background-image: /*linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), */url(<%= image_path "airbnb.png"%>) " id="first">
+     </div>
+      <div id="second"><a href="https://airbnb-clone-247.herokuapp.com/" target="_blank">Airbnb clone</a></div>
+    </div>
+
+    <div class="subscribe">
+     <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3))" id="first">
+     Recycling app</div>
+      <div id="second"><a href="http://www.recyclable.rocks/" target="_blank">check it out here</a></div>
+    </div>
+
+    <div class="subscribe">
+     <div class="card-category" style="background-image: url(<%= image_path "weather-app.png"%>)" id="first">
       </div>
+      <div id="second"><a href="https://weather-app-247.herokuapp.com/" target="_blank">Weather web app</a></div>
     </div>
 
 
-    <div class="button" data-hover="Phone web recycled" data-test="I'm acive">
-      <div class="card-category test">
-        air bnb clone
-      </div>
-    </div>
-
-    <div class="button" data-hover="Phone web recycled" data-test="I'm acive">
-      <div class="card-category test">
-        Search Films
-      </div>
-    </div>
-
-    <div class="button" data-hover="Phone web recycled" data-test="I'm acive">
-      <div class="card-category test">
-        longest word game
-      </div>
+    <div class="subscribe">
+     <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3))" id="first">
+     Longest-word-game</div>
+      <div id="second"><a href="https://longest-word-game-247.herokuapp.com/" target="_blank">check it out here</a></div>
     </div>
 
 
-    <div class="button" data-hover="Phone web recycled" data-test="I'm acive">
-      <div class="card-category test">
-        Weather app
+
+    <div class="subscribe">
+     <div class="card-category" style="background-image: url(<%= image_path "film-search.png"%>)" id="first">
       </div>
+      <div id="second"><a href="https://film-search-247.herokuapp.com/" target="_blank">film-search app</a></div>
     </div>
 
+  </div>
+
+
+
+
+
+
+
+<!--
+   <div class="subscribe">
+      <div style="background-image: url('https://source.unsplash.com/random');" id="first"><p>Airbnb clone</p></div>
+
+      <div id="second"><a href="">check it out here</a></div>
+    </div>
 
 
   </div>
 
+
+    <div class="subscribe">
+      <div style="background-image: url('https://source.unsplash.com/random');" id="first"><p>Airbnb clone</p></div>
+
+      <div id="second"><a href="">check it out here</a></div>
+    </div>
+ -->
 
 
  <%= link_to root_path do %>

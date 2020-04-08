@@ -23,12 +23,12 @@ h1 {
 
 
 
-// email logo
+email logo
 
 
 
 
-// icon grow on back button
+icon grow on back button
 
 .hvr-grow {
   display: inline-block;
@@ -50,13 +50,13 @@ h1 {
 
 
 
-*,
-*:before,
-*:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
+// *,
+// *:before,
+// *:after {
+//     -webkit-box-sizing: border-box;
+//     -moz-box-sizing: border-box;
+//     box-sizing: border-box;
+// }
 
 body {
     text-align: center;
@@ -72,115 +72,59 @@ p {
     margin-top: 0;
 }
 
-// /* .button */
 
-.button {
 
+// div {
+//   background-size: cover;
+//   background-position: center;
+//   height: 180px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   color: white;
+//   font-size: 24px;
+//   font-weight: bold;
+//   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+//   border-radius: 10px;
+
+// }
+
+#second, .subscribe:hover>div {
+  display: none;
+}
+
+
+.subscribe:hover>#second {
+  display: block;
+
+}
+
+// #first {
+//   width: 200px;
+//   height: 100px;
+//   background-color: white;
+
+// }
+
+#first > p {
+  position: relative;
+  top: 5px;
+}
+
+#second {
+
+  width: 369px;
+  height: 179px;
+  background-color: pink;
+  border-radius: 5px;
+
+  a {
     position: relative;
-    text-decoration: none;
-    font-size: 2em;
-    outline: none;
-    border: none;
-    background: transparent;
-    font-family: 'raleway', sans-serif;
-    color:white;
-
-    border-radius: 10px;
-}
-
-.button .test {                   // here //
-    -webkit-transition: 0.6s;
-    -moz-transition: 0.6s;
-    -o-transition: 0.6s;
-    transition: 0.6s;
-    -webkit-transition-delay: 0.2s;
-    -moz-transition-delay: 0.2s;
-    -o-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-}
-
-.button:before,
-.button:after {
-    content: '';
-    position: absolute;
-    top: 0.67em;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    -webkit-transition: .4s,opacity .6s;
-    -moz-transition: .4s,opacity .6s;
-    -o-transition: .4s,opacity .6s;
-    transition: .4s,opacity .6s;
-}
-
-// /* :before */
-
-.button:before {
-    content: attr(data-hover);
-    -webkit-transform: translate(-150%,0);
-    -moz-transform: translate(-150%,0);
-    -ms-transform: translate(-150%,0);
-    -o-transform: translate(-150%,0);
-    transform: translate(-150%,0);
+    top: 72px;
+    color: white;
+    font-size: 24px;
+  }
 
 }
 
-/* :after */
 
-.button:after {
-    content: attr(data-test);
-    -webkit-transform: translate(150%,0);
-    -moz-transform: translate(150%,0);
-    -ms-transform: translate(150%,0);
-    -o-transform: translate(150%,0);
-    transform: translate(150%,0);
-
-}
-
-// /* Span on :hover and :active */
-
-.button:hover .test,            //here
-.button:active .test {
-    opacity: 0;
-    -webkit-transform: scale(0.3);
-    -moz-transform: scale(0.3);
-    -ms-transform: scale(0.3);
-    -o-transform: scale(0.3);
-    transform: scale(0.3);
-}
-
-// /*
-//     We show :before pseudo-element on :hover
-//     and :after pseudo-element on :active
-// */
-
-.button:hover:before,
-.button:active:after {
-    opacity: 1;
-    -webkit-transform: translate(0,0);
-    -moz-transform: translate(0,0);
-    -ms-transform: translate(0,0);
-    -o-transform: translate(0,0);
-    transform: translate(0,0);
-    -webkit-transition-delay: .4s;
-    -moz-transition-delay: .4s;
-    -o-transition-delay: .4s;
-    transition-delay: .4s;
-}
-
-// /*
-//   We hide :before pseudo-element on :active
-// */
-
-.button:active:before {
-    -webkit-transform: translate(-150%,0);
-    -moz-transform: translate(-150%,0);
-    -ms-transform: translate(-150%,0);
-    -o-transform: translate(-150%,0);
-    transform: translate(-150%,0);
-    -webkit-transition-delay: 0s;
-    -moz-transition-delay: 0s;
-    -o-transition-delay: 0s;
-    transition-delay: 0s;
-}
