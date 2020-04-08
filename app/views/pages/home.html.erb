@@ -1,8 +1,10 @@
 
 
-    <%= mail_to "christian.s5547@gmail.com" do %>
+    <%= mail_to ("christian.s5547@gmail.com") do %>
       <i class="fas fa-envelope mail-envelope"></i>
     <% end %>
+
+
   <div class="container">
 
 
@@ -18,8 +20,9 @@
 
     </div>
 
-    <a href="christian.s5547@gmail.com" target="_top"> <i class="fas fa-envelope mail-envelope"></i></a>
-
+<%= mail_to "christian.s5547@gmail.com" do %>
+   <i class="fas fa-envelope mail-envelope"></i>
+<% end %>
 
 
     <div id="center">
