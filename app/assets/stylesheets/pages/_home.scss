@@ -1,10 +1,14 @@
+
+
 body {
   background-color:$home_background_colour;
+
 }
 
 #center {
   height: 700px;
   position: relative;
+
 
   h1 {
     font-family:$headers-font;
@@ -36,9 +40,70 @@ body {
     }
 }
 
+// ENVELOPE MAIL
+
 .mail-envelope{
   position: absolute;
-  top: 40px;
+  top: 14px;
   right: 10%;
 }
+
+
+
+
+
+// PAGE STAYS WITHIN 75% OF CONTAINER WHEN SMALLER THAN 746 PIXELS
+
+@media (max-width: 746px) {
+  .container {
+    width: 75%
+  }
+}
+
+// PAGE STAYS WITHIN 75% OF CONTAINER WHEN BIGGER THAN 746 PIXELS
+
+@media (min-width: 746px) {
+  .container {
+    width: 75%
+  }
+}
+
+// H1 REMAINS 9 VIEWPORTS OF THE SCREEN
+
+@media (max-width: 746px) {
+  #center h1 {
+    font-size: 9vw;
+  }
+}
+
+// P REMAINS 4 VIEWPORTS OF THE SCREEN
+
+@media (max-width: 746px) {
+  #center p {
+   font-size: 4vw;
+
+  }
+}
+
+// LIST ITEM CHANGES TO BLOCK LEVEL ELEMENT WHEN THE SCREEN SIZE IS 730PX AND BELOW
+
+@media (max-width: 730px) {
+  ul.list-inline.tabs-underlined {
+   display: block;
+   font-size: 6vw;
+  }
+}
+
+// POSITIONS THE EMAIL ICON BELOW THE LIST ITMES
+
+@media (max-width: 730px) {
+  .mail-envelope {
+   position: absolute;
+    top: 220px;
+    right: 45%;
+    font-size: 8vw;
+  }
+}
+
+
 
