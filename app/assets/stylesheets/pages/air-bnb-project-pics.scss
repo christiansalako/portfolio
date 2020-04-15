@@ -1,0 +1,66 @@
+#testing {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("1.png")
+}
+
+#testing:hover {
+  background-image:  url('1.png');
+  transform: scale(1.08);
+  transition: transform .5s ease;
+}
+
+
+#testing-2 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("4.png")
+}
+
+#testing-2:hover{
+  background-image:  url('4.png');
+  transform: scale(1.08);
+  transition: transform .5s ease;
+}
+
+
+#testing-3 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("2.png")
+}
+
+#testing-3:hover{
+  background-image:  url('2.png');
+  transform: scale(1.08);
+  transition: transform .5s ease;
+}
+
+#testing-4 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("5.png")
+}
+
+#testing-4:hover{
+  background-image:  url('5.png');
+  transform: scale(1.08);
+  transition: transform .5s ease;
+}
+
+#testing-5 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("6.png")
+}
+
+#testing-5:hover{
+  background-image:  url('6.png');
+  transform: scale(1.08);
+  transition: transform .5s ease;
+}
+
+#testing-6 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("7.png")
+}
+
+#testing-6:hover{
+  background-image:  url('7.png');
+  transform: scale(1.08);
+  transition: transform .5s ease;
+}
+
+
+.card-category.image {
+  height: 249px;
+}

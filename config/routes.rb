@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   get '/pages/:page' => 'pages#show'
   get '/pages/:about' => 'pages#show'
   get '/pages/:projects' => 'pages#show'
+  get '/pages/:air-bnb-project-pics' => 'pages#show'
+
 end
