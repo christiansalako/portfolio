@@ -1,12 +1,14 @@
-// #testing {
-//   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("first.png")
-// }
+#testing {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(asset_path("first.png"));
+}
 
 #testing:hover {
-  background-image:  url('first.png');
-  transform: scale(1.08);
+  background-image: url(asset_path('first.png'));
+  transform: scale(1.09);
   transition: transform .5s ease;
 }
+// url("<%= image_path "first.png"%>")
+// url(asset_path('mainbanner.jpg'));
 
 
 // #testing-2 {
